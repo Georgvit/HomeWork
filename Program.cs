@@ -42,3 +42,10 @@ void CreatingNewArray(string[] massif)
     Console.WriteLine(string.Join(" ", newMassif));
 }
 
+//Запуск методов с заданным пользователем количеством элементов в массиве
+Console.WriteLine("Введите количество элемментов в массиве:");
+int lengthMassif = Convert.ToInt32(Console.ReadLine());
+string[] arr = new string[lengthMassif];
+
+Array(arr);
+CreatingNewArray(arr);
